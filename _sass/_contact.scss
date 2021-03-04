@@ -64,5 +64,7 @@
 }
 
 #contact-info li {
-  display: inline;
+  @media only screen and (min-device-width: 800px) {
+    display: inline;
+  }
 }
