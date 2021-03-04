@@ -117,3 +117,15 @@ ul.no-dots {
 }
 
 @import "nav";
+
+.header {
+  @media screen and (max-device-width: 800px) {
+    align-items: center;
+    text-align: center;
+
+    picture {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
