@@ -37,9 +37,11 @@ linked_styles:
 <section id="projects">
   <h2>Projects & Experience</h2>
   {% for project in site.data.projects %}
-    <div class="project full-bleed" style="background: {{project.color}}dd">
+    <div class="project full-bleed" style="background: {{project.color}}">
       <div class="{{project.type}}">
-        <img class="screenshot " src="/assets/images/projects/{{project.image}}" alt="{{project.name}} Screenshot" loading="lazy">
+        <a href="/assets/images/projects/{{project.image}}">
+          <img class="screenshot " src="/assets/images/projects/{{project.image}}" href="/assets/images/projects/{{project.image}}" alt="{{project.name}} Screenshot" loading="lazy">
+        </a>
         {% if project.type == "window" or project.type == "website" %}
           <div class="buttons close"></div>
           <div class="buttons minimize"></div>
