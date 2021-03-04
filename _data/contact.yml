@@ -3,6 +3,11 @@
   name: "Vasu Zalawadia"
   url: "https://linkedin.com/in/vzalawadia"
 
+# Email
+- icon: "email-with-circle"
+  name: "vasu@hirevasu.com"
+  url: "mailto:vasu@hirevasu.com"
+
 # Github
 - icon: "github-with-circle"
   name: "@vasuz"
@@ -12,8 +17,3 @@
 - icon: "instagram-with-circle"
   name: "@vasu.z"
   url: "http://www.instagram.com/vasu.z"
-
-# Email
-- icon: "email-with-circle"
-  name: "vasu@hirevasu.com"
-  url: "mailto:vasu@hirevasu.com"

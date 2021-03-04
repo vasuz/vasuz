@@ -3,7 +3,7 @@
   color: "#e37576"
   image: volunteergo.png
   description: >-
-    An app that gamifies volunteering in the style of Pokemon Go. Selected as 1 of 5 winning projects at <a href=\"https://hackbeanpot.com/\" target=\"_blank\" rel=\"noopener\">HackBeanpot</a>.
+    An app that gamifies volunteering in the style of Pokemon Go. Selected as 1 of 5 winning projects at <a href="https://hackbeanpot.com/" target=\"_blank\" rel=\"noopener\">HackBeanpot</a>.
   url: https://devpost.com/software/volunteer-go
   urlDisplay: Devpost
 
