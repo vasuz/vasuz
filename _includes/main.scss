@@ -1,0 +1,119 @@
+@mixin colors-light {
+  --text-primary: #1a1a1a;
+  --text-secondary: #252525;
+  --bg-color: #fafaff;
+  --bg-accent: #eeeeee;
+  --border-color: #cccccc;
+  --tech-bg: #fafaff;
+  --contact-bg: #1a1a20;
+  --contact-fg: #fafaff;
+
+  --now-link-color: #13b9fd;
+}
+
+@mixin colors-dark {
+  --text-primary: #fafaff;
+  --text-secondary: #cacacf;
+  --bg-color: #1a1a20;
+  --bg-accent: #3a3a3a;
+  --border-color: #3f3f40;
+  --tech-bg: #1a1a1a;
+  --contact-bg: #2a2a2f;
+  --contact-fg: #fafaff;
+
+  --now-link-color: #003366;
+}
+
+* {
+  box-sizing: border-box;
+  transition: 0.02s all;
+}
+
+body {
+  @media screen and (prefers-color-scheme: dark) {
+    @include colors-dark();
+  }
+
+  @media screen and (prefers-color-scheme: light) {
+    @include colors-light();
+  }
+
+  &.darkmode {
+    @include colors-dark();
+  }
+
+  &.lightmode {
+    @include colors-light();
+  }
+
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+  font-size: 0.95em;
+  font-weight: 500;
+  line-height: 1.9;
+  color: var(--text-primary);
+  background-color: var(--bg-color);
+  min-width: 20rem;
+  transition: 0.1s all;
+}
+
+main section:last-child {
+  padding-bottom: 2rem;
+}
+
+main,
+nav {
+  background: transparent;
+  max-width: 60rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+#tech.full-bleed {
+  margin-top: -3rem;
+  margin-bottom: -3rem;
+}
+
+@media screen and (max-width: 60rem) {
+  .full-bleed {
+    margin-left: -1em;
+    width: calc(100% + 2em);
+  }
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: var(--text-secondary);
+  font-weight: 500;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+section {
+  padding-top: 2rem;
+}
+
+ul.no-dots {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding-left: 1rem;
+    text-indent: -0.5rem;
+    color: var(--text-secondary);
+    line-height: 1.8em;
+  }
+}
+
+@import "nav";

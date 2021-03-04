@@ -1,0 +1,24 @@
+name: Vasu Zalawadia
+firstname: Vasu
+description: ""
+
+url: "https://hirevasu.com"
+github_username: vasuz
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      inline_styles:
+        - post.scss
+      linked_styles:
+        - tango.css
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+sass:
+  style: compressed

@@ -1,0 +1,20 @@
+- name: "C#"
+  icon: "csharp"
+
+- name: "Python"
+  icon: "python"
+
+- name: "Java"
+  icon: "java"
+
+- name: "Git"
+  icon: "git"
+
+- name: "SQL"
+  icon: "sql"
+
+- name: "Excel"
+  icon: "excel"
+
+- name: "Crypto"
+  icon: "crypto"

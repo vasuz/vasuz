@@ -1,0 +1,31 @@
+.tech-item {
+  background: #ffffff;
+
+  &.git-tech-icon {
+    background: #de330d;
+  }
+  &.csharp-tech-icon {
+    background: #813084;
+  }
+  &.linux-tech-icon,
+  &.javascript-tech-icon {
+    .tech-name {
+      color: #1a1a1a !important;
+    }
+  }
+  &.excel-tech-icon {
+    background: #237e4c;
+  }
+  &.crypto-tech-icon {
+    background: #f7931a;
+  }
+  &.python-tech-icon {
+    background: #3571a2;
+  }
+  &.java-tech-icon {
+    background: #e51f24;
+  }
+  &.sql-tech-icon {
+    background: #711588;
+  }
+}
