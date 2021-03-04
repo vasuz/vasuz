@@ -12,7 +12,7 @@
   image: mbta.png
   description: >-
     An interactive visualization offering live and historical views of the MBTA rapid-transit network.
-  github: https://github.com/vasuz/Mapping-The-MBTA
+  github: vasuz/Mapping-The-MBTA
 
 - name: Gaming Galaxy
   type: preview
@@ -28,4 +28,4 @@
   image: bgc.png
   description: >-
     A CLI tool that allows one-click access to a student's grades in any class using the Bottlenose grade system.
-  github: https://github.com/vasuz/BottlenoseGradeChecker
+  github: vasuz/BottlenoseGradeChecker
