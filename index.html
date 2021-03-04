@@ -60,8 +60,8 @@ linked_styles:
         {% if project.url %}
           <a class="information-link" href="{{project.url}}" target="_BLANK" rel="noopener">{{project.urlDisplay}}</a>
         {% endif %}
-        {% if project.comingSoon %}
-          <a class="information-link disabled">Coming Soon...</a>
+        {% if project.disabledBox %}
+          <a class="information-link disabled">{{project.disabledBox}}</a>
         {% endif %}
       </div>
     </div>

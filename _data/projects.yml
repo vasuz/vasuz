@@ -20,11 +20,10 @@
   type: preview
   color: "#7860e6"
   image: gg.gif
-  description:
+  description: >-
     A crypto-based digital gaming platform that brings the convenience of online gaming to the accessibility of Discord.
-
-    (Details & source code available upon request)
   urlDisplay: GitHub
+  disabledBox: Details & source on request
 
 - name: Bottlenose Grade Checker
   type: preview
