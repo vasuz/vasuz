@@ -56,10 +56,7 @@ linked_styles:
         <h1 class="information-name">{{project.name}}</h1>
         <p class="information-description">{{project.description}}</p>
         {% if project.url %}
-          <a class="information-link" href="{{project.url}}" target="_BLANK" rel="noopener">Website</a>
-        {% endif %}
-        {% if project.github %}
-          <a class="information-link" href="https://github.com/{{project.github}}" target="_BLANK" rel="noopener">Github</a>
+          <a class="information-link" href="{{project.url}}" target="_BLANK" rel="noopener">{{project.urlDisplay}}</a>
         {% endif %}
         {% if project.comingSoon %}
           <a class="information-link disabled">Coming Soon...</a>

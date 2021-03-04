@@ -3,8 +3,9 @@
   color: "#e37576"
   image: volunteergo.png
   description: >-
-    An app  that gamifies volunteering in the style of Pokemon Go. Selected as 1 of 5 winning projects at <a href=\"https://hackbeanpot.com/\" target=\"_blank\" rel=\"noopener\">HackBeanpot</a>.
+    An app that gamifies volunteering in the style of Pokemon Go. Selected as 1 of 5 winning projects at <a href=\"https://hackbeanpot.com/\" target=\"_blank\" rel=\"noopener\">HackBeanpot</a>.
   url: https://devpost.com/software/volunteer-go
+  urlDisplay: Devpost
 
 - name: Mapping The MBTA
   type: preview
@@ -12,15 +13,18 @@
   image: mbta.png
   description: >-
     An interactive visualization offering live and historical views of the MBTA rapid-transit network.
-  github: vasuz/Mapping-The-MBTA
+  url: https://github.com/vasuz/Mapping-The-MBTA
+  urlDisplay: GitHub
 
 - name: Gaming Galaxy
   type: preview
   color: "#7860e6"
   image: gg.gif
-  description: >-
-    A crypto-based digital gaming platform that brought the convenience of online gaming to the accessibility of Discord. (Details & source code available upon request)
-  #github: <none>
+  description:
+    A crypto-based digital gaming platform that brought the convenience of online gaming to the accessibility of Discord.
+
+    (Details & source code available upon request)
+  urlDisplay: GitHub
 
 - name: Bottlenose Grade Checker
   type: preview
@@ -28,4 +32,5 @@
   image: bgc.png
   description: >-
     A CLI tool that allows one-click access to a student's grades in any class using the Bottlenose grade system.
-  github: vasuz/BottlenoseGradeChecker
+  url: https://github.com/vasuz/BottlenoseGradeChecker
+  urlDisplay: GitHub
