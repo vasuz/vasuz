@@ -39,7 +39,7 @@ linked_styles:
   {% for project in site.data.projects %}
     <div class="project full-bleed" style="background: {{project.color}}">
       <div class="{{project.type}}">
-        <a href="/assets/images/projects/{{project.image}}">
+        <a href="/assets/images/projects/{{project.image}}" target="_blank">
           <img class="screenshot " src="/assets/images/projects/{{project.image}}" href="/assets/images/projects/{{project.image}}" alt="{{project.name}} Screenshot" loading="lazy">
         </a>
         {% if project.type == "window" or project.type == "website" %}
