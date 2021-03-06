@@ -9,7 +9,7 @@
   #contact-title {
     color: var(--contact-fg);
     font-size: 2em;
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
     text-align: center;
   }
 
@@ -58,13 +58,13 @@
           width: 100%;
         }
       }
-    }
-  }
-}
 
-#contact-info li {
-  @media screen and (min-device-width: 800px) {
-    display: inline;
-    margin-left: 2em;
+      li {
+        @media screen and (min-device-width: 800px) {
+          display: inline;
+          margin-left: 2em;
+        }
+      }
+    }
   }
 }
