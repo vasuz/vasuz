@@ -1,20 +1,48 @@
-- name: "C#"
-  icon: "csharp"
-
-- name: "Python"
-  icon: "python"
-
+# Ordered as rainbow
 - name: "Java"
   icon: "java"
 
 - name: "Git"
   icon: "git"
 
-- name: "SQL"
-  icon: "sql"
+- name: "HTML"
+  icon: "html"
+
+- name: "Crypto"
+  icon: "crypto"
 
 - name: "Excel"
   icon: "excel"
 
-- name: "Crypto"
-  icon: "crypto"
+- name: "Python"
+  icon: "python"
+
+- name: "C#"
+  icon: "csharp"
+
+- name: "SQL"
+  icon: "sql"
+# Unordered
+# - name: "C#"
+#   icon: "csharp"
+
+# - name: "Python"
+#   icon: "python"
+
+# - name: "Java"
+#   icon: "java"
+
+# - name: "HTML"
+#   icon: "html"
+
+# - name: "Crypto"
+#   icon: "crypto"
+
+# - name: "Git"
+#   icon: "git"
+
+# - name: "SQL"
+#   icon: "sql"
+
+# - name: "Excel"
+#   icon: "excel"
