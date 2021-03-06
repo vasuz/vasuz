@@ -26,10 +26,10 @@
     polygon {
       fill: var(--text-primary);
     }
-	
-	path {
-	  fill: var(--text-primary);
-	}
+
+    path {
+      fill: var(--text-primary);
+    }
   }
 
   #theme-switch {
@@ -79,7 +79,7 @@
         color: var(--text-primary);
         text-decoration: none;
         font-weight: 500;
-    
+
         &:hover {
           text-decoration: underline;
         }

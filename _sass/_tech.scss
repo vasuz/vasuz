@@ -7,7 +7,8 @@
 @supports (display: grid) {
   #tech {
     display: grid;
-    padding: 4rem;
+    padding: 2rem 0 6em 0;
+    margin: -3rem 0 -3rem 0;
     grid-gap: 2rem;
     grid-auto-rows: minmax(5rem, auto);
     grid-template-columns: repeat(auto-fill, 5rem);
