@@ -22,3 +22,5 @@ defaults:
 
 sass:
   style: compressed
+
+google_analytics: G-ESN10YX04Z
